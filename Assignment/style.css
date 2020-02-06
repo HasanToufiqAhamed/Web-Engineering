@@ -1,27 +1,218 @@
-a{
-    color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-h1{
+.body{
+    background: #282828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    height: 30%;
+    width: 100;
+    margin-top: 50px;
+    display: flex;
+}
+
+.photoDiv{
+    height: 100%;
+    width: 40%;
+}
+
+.photoDiv img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 6px;
+    float: right;
+    margin-right: 40px;
+}
+
+.about{
+    height: 316px;
+    width: 70%;
+    margin-left: 50xp;
+    display: table-cell;
+}
+
+.about h1{
+    height: 40px;
+    color: white;
+    margin-top: 40px;
+}
+.about h3{
+    height: 45px;
     color: white;
 }
-p{
+
+.about p{
     color: white;
 }
-body{
-    background: rgb(37, 37, 37)
+
+.myLink a{
+    color: white;
+    padding: 5px;
 }
-.about img{
-    width: 350px;
-    height: 350px;
+
+.myLink{
+    margin-top: 20px;
+}
+
+.edu{
+    margin-top: 50px;
+}
+
+.edu table{
+    margin: 10px auto;
+    width: 100%;
+    color: #dae6db;
+}
+.edu h2{
+    text-align: center;
+    color: #dae6db;
+}
+.edu table, th, td {
+    border: 2px solid #383838;
+    border-collapse: collapse;
+}
+.edu th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+.skill{
+    height: 100%;
+    width: 100%;
+}
+
+.skill img{
+    height: 100px;
+    width: 100px;
+    background: white;
+    padding: 20px;
     border-radius: 50%;
     margin-left: 100px;
 }
-div{
-    display: inline-block;
+
+.skill p{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    text-align: center left;
 }
-.des{
+
+.skill h2{
+    color: white;
     margin-top: 50px;
+    text-align: center;
 }
-.info{
-    margin-left: 50px;
+
+.all_skills{
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.java{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-content: center;
+}
+
+.footer{
+    height: 220px;
+    width: 100%;
+    background: #222222;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.contact{
+    height: 100%;
+    width: 50%;
+}
+
+.background{
+    height: 50px;
+    width: 50px;
+    background: #282828;
+    border-radius: 50%;
+    float: none;
+}
+
+.footer i{
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.contact_icon{
+    height: 50px;
+    width: 50px;
+    background: #282828;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 120px;
+}
+
+.contact_info{
+    margin-top: 15px;
+}
+
+.contact_icon_layer p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.contact_icon_layer{
+    display: flex;
+}
+
+.email_div{
+    height: auto;
+    width: 49.8%;
+    padding-right: 120px;
+}
+
+.email_id{
+    height: 30px;
+    width: 100%;
+    background: #282828;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.message{
+    height: 75px;
+    width: 100%;
+    background: #282828;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;padding-top: 10px;
+}
+
+.email_div button{
+    height: 30px;
+    width: 100px;
+    background: #282828;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
